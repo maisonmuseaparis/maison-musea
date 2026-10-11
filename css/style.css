@@ -156,6 +156,10 @@ h3 { font-family: var(--display); font-weight: 500; font-size: 24px; line-height
 .price-time { color: var(--muted); font-size: 15px; letter-spacing: 0.06em; }
 .price { min-width: 76px; text-align: right; font-weight: 500; color: var(--accent); font-variant-numeric: tabular-nums; }
 
+.price-group .label { margin-bottom: 10px; }
+.price-name small { display: block; font-family: var(--text); font-size: 14px; color: var(--muted); letter-spacing: 0.02em; margin-top: 2px; }
+.price { white-space: nowrap; }
+
 /* Attentions */
 .perks { display: flex; flex-wrap: wrap; gap: 20px; }
 .perk { flex: 1 1 260px; min-width: 0; padding: 28px; display: flex; flex-direction: column; gap: 8px; }
