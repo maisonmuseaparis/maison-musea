@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maison MUSÉA Paris · Prothésiste ongulaire à Carrières-sur-Seine</title>
+<meta name="description" content="Maison Muséa Paris : pose gel, semi-permanent et nail art sur mesure, au studio à Carrières-sur-Seine ou à domicile (Houilles, Chatou, Montesson, Le Vésinet). Sur rendez-vous.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Maison MUSÉA Paris · Prothésiste ongulaire">
+<meta property="og:description" content="Pose gel, semi-permanent et nail art sur mesure, au studio ou chez vous. Sur rendez-vous.">
+<meta property="og:image" content="images/carte-musea.jpg">
+<meta name="theme-color" content="#F1EFEB">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Jost:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<header class="site-header wrap">
+  <a class="wordmark" href="#accueil" aria-label="Maison Muséa Paris, accueil">
+    <span class="wordmark-small">Maison</span>
+    <span class="wordmark-big">MUSÉA</span>
+    <span class="wordmark-small">Paris</span>
+  </a>
+  <nav class="nav" aria-label="Navigation principale">
+    <a href="#maison">La maison</a>
+    <a href="#realisations">Réalisations</a>
+    <a href="#forme">Votre forme</a>
+    <a href="#tarifs">Tarifs</a>
+    <a href="#questions">Questions</a>
+    <a class="btn btn-accent btn-small" href="#reserver">Réserver</a>
+  </nav>
+</header>
+
+<main id="contenu">
+
+<!-- ACCUEIL -->
+<section id="accueil" class="wrap hero">
+  <div class="hero-text">
+    <p class="eyebrow">Prothésiste ongulaire · Carrières-sur-Seine</p>
+    <h1>Vos ongles, <em>pièces de collection.</em></h1>
+    <p class="lead">Pose gel, semi-permanent et nail art sur mesure, dans un studio privé ou directement chez vous. Sur rendez-vous, une cliente à la fois.</p>
+    <div class="actions">
+      <a class="btn btn-accent" href="#reserver">Réserver un rendez-vous</a>
+      <a class="btn btn-outline" href="#realisations">Voir mes réalisations</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <img src="images/carte-musea.jpg" width="1320" height="739" alt="Maison Muséa Paris : main aux ongles nude rosé posée sur un tissu clair">
+  </div>
+</section>
+
+<!-- LA MAISON : QUALITÉS -->
+<section id="maison" class="band">
+  <div class="wrap section stack-xl">
+    <div class="about">
+      <div class="placeholder about-photo">[Votre portrait]</div>
+      <div class="about-text">
+        <p class="eyebrow">La maison</p>
+        <h2>[Votre prénom], <em>fondatrice de Maison Muséa</em></h2>
+        <p class="muted measure">[Trois ou quatre lignes sur votre parcours : votre formation, ce qui vous a amenée à l'onglerie, ce que vous aimez dans ce métier.]</p>
+        <p class="quote measure">Je prends le temps qu'il faut pour que chaque pose soit nette, solide et à votre image.</p>
+      </div>
+    </div>
+    <div class="qualities">
+      <div class="quality">
+        <h3>Formée et certifiée</h3>
+        <p class="muted">[Votre diplôme ou certificat, l'école, l'année.]</p>
+      </div>
+      <div class="quality">
+        <h3>Hygiène stricte</h3>
+        <p class="muted">Instruments désinfectés après chaque rendez-vous, limes et bâtonnets à usage unique.</p>
+      </div>
+      <div class="quality">
+        <h3>Une cliente à la fois</h3>
+        <p class="muted">Pas de salle d'attente ni de pose à la chaîne. Le créneau vous est entièrement réservé.</p>
+      </div>
+      <div class="quality">
+        <h3>Conseil sur mesure</h3>
+        <p class="muted">La forme, la longueur et la teinte sont choisies selon vos mains et votre quotidien.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RÉALISATIONS -->
+<section id="realisations" class="wrap section stack-l">
+  <div class="section-head">
+    <h2>Mes <em>réalisations</em></h2>
+    <p class="muted measure-s">Toutes les photos sont prises au studio, sans retouche. Choisissez un style pour filtrer la galerie.</p>
+  </div>
+  <div class="pills" role="group" aria-label="Filtrer les réalisations par style" id="filtres">
+    <button type="button" class="pill" data-filter="tout" aria-pressed="true">Tout</button>
+    <button type="button" class="pill" data-filter="nude" aria-pressed="false">Nude</button>
+    <button type="button" class="pill" data-filter="french" aria-pressed="false">French</button>
+    <button type="button" class="pill" data-filter="couleur" aria-pressed="false">Couleur</button>
+    <button type="button" class="pill" data-filter="nail-art" aria-pressed="false">Nail art</button>
+  </div>
+  <!-- Pour ajouter une photo : dupliquer un bloc <figure>, mettre l'image dans /images
+       et remplacer le <div class="placeholder ..."> par <img src="images/nom.jpg" alt="..."> -->
+  <div class="gallery" id="galerie">
+    <figure data-cat="nude"><div class="placeholder shot tone-1">[Votre photo]</div><figcaption><span>Baby boomer</span><span>Nude</span></figcaption></figure>
+    <figure data-cat="french"><div class="placeholder shot tone-2">[Votre photo]</div><figcaption><span>French fine</span><span>French</span></figcaption></figure>
+    <figure data-cat="couleur"><div class="placeholder shot tone-3">[Votre photo]</div><figcaption><span>Rouge profond</span><span>Couleur</span></figcaption></figure>
+    <figure data-cat="nail-art"><div class="placeholder shot tone-4">[Votre photo]</div><figcaption><span>Feuille d'or</span><span>Nail art</span></figcaption></figure>
+    <figure data-cat="nude"><div class="placeholder shot tone-5">[Votre photo]</div><figcaption><span>Nude lacté</span><span>Nude</span></figcaption></figure>
+    <figure data-cat="french"><div class="placeholder shot tone-6">[Votre photo]</div><figcaption><span>French colorée</span><span>French</span></figcaption></figure>
+    <figure data-cat="couleur"><div class="placeholder shot tone-7">[Votre photo]</div><figcaption><span>Bordeaux mat</span><span>Couleur</span></figcaption></figure>
+    <figure data-cat="nail-art"><div class="placeholder shot tone-8">[Votre photo]</div><figcaption><span>Fleurs fines</span><span>Nail art</span></figcaption></figure>
+  </div>
+  <p class="muted">Les dernières poses sont publiées chaque semaine sur Instagram : <strong>[@votre_compte]</strong></p>
+</section>
+
+<!-- TROUVEZ VOTRE FORME -->
+<section id="forme" class="band">
+  <div class="wrap section shape-finder">
+    <div class="shape-text stack-m">
+      <h2>Trouvez <em>votre forme</em></h2>
+      <p class="muted measure-s">Six formes, six allures. Touchez-en une pour voir à qui elle convient le mieux.</p>
+      <div class="pills" role="group" aria-label="Choisir une forme d'ongle" id="formes"></div>
+      <div class="shape-result" aria-live="polite">
+        <h3 id="forme-nom">Amande</h3>
+        <p class="muted measure-s" id="forme-texte"></p>
+        <p class="measure-s"><span class="label">Idéale pour</span><br><span id="forme-ideal"></span></p>
+      </div>
+    </div>
+    <div class="shape-stage" aria-hidden="true">
+      <div class="nail" id="ongle"></div>
+    </div>
+  </div>
+</section>
+
+<!-- TARIFS -->
+<section id="tarifs" class="wrap section split">
+  <div class="split-side stack-s">
+    <h2>Prestations <em>et tarifs</em></h2>
+    <p class="muted measure-s">Les prix sont affichés avant la réservation, sans supplément caché. La dépose d'une ancienne pose est à signaler dans votre demande.</p>
+  </div>
+  <ul class="price-list split-main">
+    <li><span class="price-name">Semi-permanent, mains</span><span class="price-time">45 min</span><span class="price">[00 €]</span></li>
+    <li><span class="price-name">Gel sur ongles naturels</span><span class="price-time">1 h 15</span><span class="price">[00 €]</span></li>
+    <li><span class="price-name">Extensions gel, chablon ou capsules</span><span class="price-time">1 h 45</span><span class="price">[00 €]</span></li>
+    <li><span class="price-name">Remplissage</span><span class="price-time">1 h 15</span><span class="price">[00 €]</span></li>
+    <li><span class="price-name">Nail art sur mesure</span><span class="price-time">par ongle</span><span class="price">[00 €]</span></li>
+    <li><span class="price-name">Beauté des pieds, semi-permanent</span><span class="price-time">1 h</span><span class="price">[00 €]</span></li>
+    <li><span class="price-name">Dépose soignée</span><span class="price-time">30 min</span><span class="price">[00 €]</span></li>
+  </ul>
+</section>
+
+<!-- ATTENTIONS -->
+<section id="attentions" class="wrap section-bottom stack-m">
+  <h2 class="h2-small">Les attentions <em>de la maison</em></h2>
+  <div class="perks">
+    <div class="perk perk-rose">
+      <h3>Première visite</h3>
+      <p>[Votre offre de bienvenue, par exemple une remise ou un soin des mains offert.]</p>
+    </div>
+    <div class="perk perk-light">
+      <h3>Carte de fidélité</h3>
+      <p class="muted">[Votre règle de fidélité, par exemple un avantage à la sixième pose.]</p>
+    </div>
+    <div class="perk perk-dark">
+      <h3>Bon cadeau</h3>
+      <p>Une pose à offrir, pour un anniversaire ou une future mariée. [Vos modalités.]</p>
+    </div>
+  </div>
+</section>
+
+<!-- STUDIO ET SECTEUR -->
+<section id="studio" class="band">
+  <div class="wrap section about">
+    <div class="placeholder studio-photo">[Photo du studio]</div>
+    <div class="about-text stack-m">
+      <h2>Un studio privé, <em>ou votre salon</em></h2>
+      <div class="two-cols">
+        <div>
+          <h3 class="label">Au studio</h3>
+          <p class="muted">Un espace dédié à Carrières-sur-Seine, au calme, avec [stationnement / accès à préciser].</p>
+        </div>
+        <div>
+          <h3 class="label">Chez vous</h3>
+          <p class="muted">Je me déplace avec tout le matériel. Il suffit d'une table et d'une prise électrique.</p>
+        </div>
+      </div>
+      <div>
+        <h3 class="label">Secteur desservi</h3>
+        <ul class="chips">
+          <li class="chip-main">Carrières-sur-Seine</li>
+          <li>Houilles</li>
+          <li>Chatou</li>
+          <li>Montesson</li>
+          <li>Le Vésinet</li>
+          <li>Croissy-sur-Seine</li>
+          <li>Sartrouville</li>
+          <li>Bezons</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AVIS -->
+<section id="avis" class="wrap section stack-m">
+  <h2>Elles en <em>parlent</em></h2>
+  <div class="reviews">
+    <figure class="review"><blockquote>[Avis d'une cliente, repris de votre fiche Google]</blockquote><figcaption>[Prénom, ville]</figcaption></figure>
+    <figure class="review"><blockquote>[Avis d'une cliente, repris de votre fiche Google]</blockquote><figcaption>[Prénom, ville]</figcaption></figure>
+    <figure class="review"><blockquote>[Avis d'une cliente, repris de votre fiche Google]</blockquote><figcaption>[Prénom, ville]</figcaption></figure>
+  </div>
+</section>
+
+<!-- QUESTIONS -->
+<section id="questions" class="wrap section-bottom split">
+  <div class="split-side">
+    <h2>Questions <em>fréquentes</em></h2>
+  </div>
+  <div class="faq split-main">
+    <details>
+      <summary>Combien de temps tient une pose ?</summary>
+      <p>En général trois à quatre semaines pour le gel, deux à trois pour le semi-permanent. La tenue dépend de la pousse de l'ongle et de l'usage que vous faites de vos mains.</p>
+    </details>
+    <details>
+      <summary>Le gel abîme-t-il les ongles ?</summary>
+      <p>Une pose bien préparée et une dépose douce respectent l'ongle. Ce qui l'abîme, c'est d'arracher le produit soi-même : prévoyez toujours une dépose au studio.</p>
+    </details>
+    <details>
+      <summary>Comment préparer mon rendez-vous ?</summary>
+      <p>Venez les mains propres, sans crème ni huile. Si vous avez une idée précise, envoyez une photo d'inspiration avec votre demande.</p>
+    </details>
+    <details>
+      <summary>Puis-je annuler ou déplacer un créneau ?</summary>
+      <p>[Votre règle d'annulation, par exemple un délai de prévenance et un éventuel acompte.]</p>
+    </details>
+    <details>
+      <summary>Quels moyens de paiement acceptez-vous ?</summary>
+      <p>[Espèces, carte, virement instantané : à préciser.]</p>
+    </details>
+  </div>
+</section>
+
+<!-- RÉSERVER -->
+<section id="reserver" class="dark">
+  <div class="wrap section-big split">
+    <div class="split-side stack-m">
+      <h2 class="h2-big">Prenez <em>rendez-vous</em></h2>
+      <p class="soft measure-s">Envoyez votre demande, je vous réponds dans la journée pour confirmer le créneau.</p>
+      <dl class="contact">
+        <div><dt>Téléphone</dt><dd>[06 00 00 00 00]</dd></div>
+        <div><dt>Instagram</dt><dd>[@votre_compte]</dd></div>
+        <div><dt>Horaires</dt><dd>[Vos jours et horaires]</dd></div>
+      </dl>
+    </div>
+    <form class="form split-main" id="form-rdv" novalidate>
+      <div class="form-row">
+        <div class="field">
+          <label for="rdv-prenom">Prénom</label>
+          <input id="rdv-prenom" name="prenom" type="text" autocomplete="given-name" required>
+        </div>
+        <div class="field">
+          <label for="rdv-tel">Téléphone</label>
+          <input id="rdv-tel" name="tel" type="tel" autocomplete="tel" required>
+        </div>
+      </div>
+      <div class="field">
+        <label for="rdv-prestation">Prestation</label>
+        <select id="rdv-prestation" name="prestation">
+          <option>Semi-permanent, mains</option>
+          <option>Gel sur ongles naturels</option>
+          <option>Extensions gel</option>
+          <option>Remplissage</option>
+          <option>Nail art sur mesure</option>
+          <option>Beauté des pieds</option>
+          <option>Dépose</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="rdv-lieu">Lieu</label>
+        <select id="rdv-lieu" name="lieu">
+          <option>Au studio, à Carrières-sur-Seine</option>
+          <option>Chez moi</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="rdv-message">Créneau souhaité et précisions</label>
+        <textarea id="rdv-message" name="message" rows="4"></textarea>
+      </div>
+      <p class="form-error" id="rdv-erreur" role="alert" hidden></p>
+      <button type="submit" class="btn btn-light">Envoyer ma demande</button>
+      <div class="form-result" id="rdv-resultat" hidden>
+        <p id="rdv-resultat-titre"></p>
+        <pre id="rdv-resultat-texte"></pre>
+        <button type="button" class="btn btn-ghost btn-small" id="rdv-copier">Copier le message</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="wrap site-footer">
+  <div class="wordmark wordmark-footer">
+    <span class="wordmark-small">Maison</span>
+    <span class="wordmark-big">MUSÉA</span>
+    <span class="wordmark-small">Paris</span>
+  </div>
+  <p>Prothésiste ongulaire à domicile · Carrières-sur-Seine (78)</p>
+  <p>© <span id="annee">2026</span> · <a href="mentions-legales.html">Mentions légales</a></p>
+</footer>
+
+<a class="cta-bar" href="#reserver">Réserver un rendez-vous</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
