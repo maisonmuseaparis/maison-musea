@@ -4,7 +4,7 @@
 var CONFIG = {
   // Numéro WhatsApp au format international, sans + ni espaces. Exemple : "33612345678".
   // Tant qu'il est vide, le formulaire affiche le message à copier au lieu d'ouvrir WhatsApp.
-  whatsapp: ""
+  whatsapp: "33620402345"
 };
 
 /* ---------- GALERIE : filtre par style ---------- */
