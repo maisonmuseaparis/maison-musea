@@ -114,7 +114,7 @@ var CONFIG = {
       titre.textContent = "WhatsApp s'ouvre avec votre demande. S'il ne s'ouvre pas, copiez le message ci-dessous.";
       window.open("https://wa.me/" + CONFIG.whatsapp + "?text=" + encodeURIComponent(message), "_blank", "noopener");
     } else {
-      titre.textContent = "Votre demande est prête. Copiez ce message et envoyez-le par SMS ou sur Instagram.";
+      titre.textContent = "Votre demande est prête. Copiez ce message et envoyez-le sur WhatsApp ou Instagram (maisonmuseaparis).";
     }
   });
 
