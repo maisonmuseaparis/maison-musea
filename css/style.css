@@ -120,6 +120,9 @@ h3 { font-family: var(--display); font-weight: 500; font-size: 24px; line-height
 .two-cols { display: flex; flex-wrap: wrap; gap: 24px 36px; }
 .two-cols > div { flex: 1 1 200px; min-width: 0; }
 
+img.about-photo { width: 300px; height: auto; min-height: 0; aspect-ratio: 4 / 5; object-fit: cover; align-self: flex-start; }
+@media (max-width: 640px) { img.about-photo { width: 100%; max-width: 360px; } }
+
 /* Filtres et pastilles */
 .pills { display: flex; flex-wrap: wrap; gap: 10px; }
 .pill {
