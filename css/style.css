@@ -139,7 +139,7 @@ img.about-photo { width: 300px; height: auto; min-height: 0; aspect-ratio: 4 / 5
 .gallery .shot { border-color: var(--line); color: var(--ink); }
 .gallery figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; font-size: 15px; }
 .gallery figcaption span:first-child { font-family: var(--display); font-size: 19px; }
-.gallery figcaption span:last-child { color: var(--muted); letter-spacing: 0.08em; }
+.gallery figcaption span:last-child:not(:first-child) { color: var(--muted); letter-spacing: 0.08em; }
 .tone-1 { background: #EFDDD7; } .tone-2 { background: #F5EFEA; } .tone-3 { background: #E3C4C2; } .tone-4 { background: #E9DFC9; }
 .tone-5 { background: #F0E2DA; } .tone-6 { background: #E7E3DC; } .tone-7 { background: #D9BFC0; } .tone-8 { background: #E4E0D2; }
 

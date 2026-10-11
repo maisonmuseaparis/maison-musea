@@ -92,29 +92,27 @@
 <section id="realisations" class="wrap section stack-l">
   <div class="section-head">
     <h2>Mes <em>réalisations</em></h2>
-    <p class="muted measure-s">Quelques-unes de mes dernières poses. Choisissez un style pour filtrer la galerie.</p>
+    <p class="muted measure-s">Quelques-unes de mes dernières poses. Choisissez une prestation pour filtrer la galerie.</p>
   </div>
-  <div class="pills" role="group" aria-label="Filtrer les réalisations par style" id="filtres">
+  <div class="pills" role="group" aria-label="Filtrer les réalisations par prestation" id="filtres">
     <button type="button" class="pill" data-filter="tout" aria-pressed="true">Tout</button>
-    <button type="button" class="pill" data-filter="nude" aria-pressed="false">Nude</button>
-    <button type="button" class="pill" data-filter="french" aria-pressed="false">French et baby-boomer</button>
-    <button type="button" class="pill" data-filter="couleur" aria-pressed="false">Couleur</button>
+    <button type="button" class="pill" data-filter="extension" aria-pressed="false">Extensions</button>
+    <button type="button" class="pill" data-filter="gainage" aria-pressed="false">Gainage</button>
     <button type="button" class="pill" data-filter="pedicure" aria-pressed="false">Pédicure</button>
   </div>
   <!-- Pour ajouter une photo : déposer l'image dans /images (format 4:5), puis dupliquer un bloc <figure>.
-       data-cat vaut nude, french, couleur ou pedicure. -->
+       data-cat vaut extension, gainage ou pedicure. -->
   <div class="gallery" id="galerie">
-    <figure data-cat="nude"><img src="images/baby-boomer-court.jpg" width="900" height="1125" loading="lazy" alt="Ongles nude en forme amande, mains posées sur un tissu sombre"><figcaption><span>Forme amande, nude</span><span>Nude</span></figcaption></figure>
-    <figure data-cat="french"><img src="images/french-blanche.jpg" width="900" height="1125" loading="lazy" alt="French blanche sur ongles en amande, manche en dentelle noire"><figcaption><span>French</span><span>French et baby-boomer</span></figcaption></figure>
-    <figure data-cat="couleur"><img src="images/noir-laque.jpg" width="900" height="1125" loading="lazy" alt="Ongles carrés noir laqué, manche en dentelle noire"><figcaption><span>Noir</span><span>Couleur</span></figcaption></figure>
-    <figure data-cat="couleur"><img src="images/rouge.jpg" width="900" height="1125" loading="lazy" alt="Ongles carrés rouges"><figcaption><span>Rouge</span><span>Couleur</span></figcaption></figure>
-    <figure data-cat="french"><img src="images/babycolor-french.jpg" width="900" height="1125" loading="lazy" alt="Babycolor rose, french blanche et liseré de paillettes"><figcaption><span>Babycolor et french</span><span>French et baby-boomer</span></figcaption></figure>
-    <figure data-cat="nude"><img src="images/blanc-laiteux-paillettes.jpg" width="900" height="1125" loading="lazy" alt="Ongles carrés blanc laiteux avec une incrustation de paillettes rosées"><figcaption><span>Blanc laiteux, incrustation paillettes</span><span>Nude</span></figcaption></figure>
-    <figure data-cat="french"><img src="images/baby-boomer-ovale.jpg" width="900" height="1125" loading="lazy" alt="Gros plan sur un ongle ovale en baby-boomer"><figcaption><span>Baby-boomer</span><span>French et baby-boomer</span></figcaption></figure>
-    <figure data-cat="nude"><img src="images/nude-laiteux.jpg" width="900" height="1125" loading="lazy" alt="Ongles ovales nude laiteux sur fond noir"><figcaption><span>Nude laiteux</span><span>Nude</span></figcaption></figure>
-    <figure data-cat="couleur"><img src="images/pastel-jaune-rose.jpg" width="900" height="1125" loading="lazy" alt="Ongles carrés longs jaune pastel et rose"><figcaption><span>Jaune pastel et rose</span><span>Couleur</span></figcaption></figure>
-    <figure data-cat="nude"><img src="images/nude-laiteux-gros-plan.jpg" width="900" height="1125" loading="lazy" alt="Gros plan sur des ongles en amande nude laiteux"><figcaption><span>Extension capsule, gel rosé</span><span>Nude</span></figcaption></figure>
-    <figure data-cat="pedicure"><img src="images/pedicure-blanc-laiteux.jpg" width="900" height="1125" loading="lazy" alt="Pédicure blanc laiteux"><figcaption><span>Blanc laiteux, incrustation paillettes</span><span>Pédicure</span></figcaption></figure>
+    <figure data-cat="extension"><img src="images/baby-boomer-court.jpg" width="900" height="1125" loading="lazy" alt="Extension, ongles en forme amande, mains posées sur un tissu sombre"><figcaption><span>Extension forme amande</span></figcaption></figure>
+    <figure data-cat="extension"><img src="images/french-blanche.jpg" width="900" height="1125" loading="lazy" alt="Extension en forme amande avec french blanche, manche en dentelle noire"><figcaption><span>Extension forme amande, french</span></figcaption></figure>
+    <figure data-cat="gainage"><img src="images/noir-laque.jpg" width="900" height="1125" loading="lazy" alt="Gainage noir, forme carré arrondi, manche en dentelle noire"><figcaption><span>Gainage forme carré arrondi</span></figcaption></figure>
+    <figure data-cat="gainage"><img src="images/rouge.jpg" width="900" height="1125" loading="lazy" alt="Gainage rouge, forme carré arrondi"><figcaption><span>Gainage forme carré arrondi</span></figcaption></figure>
+    <figure data-cat="extension"><img src="images/babycolor-french.jpg" width="900" height="1125" loading="lazy" alt="Extension en forme amande, babycolor rose, french blanche et liseré de paillettes"><figcaption><span>Extension forme amande, babycolor et french</span></figcaption></figure>
+    <figure data-cat="extension"><img src="images/blanc-laiteux-paillettes.jpg" width="900" height="1125" loading="lazy" alt="Extension forme carré, blanc laiteux avec incrustation de paillettes"><figcaption><span>Extension forme carré, incrustation paillettes</span></figcaption></figure>
+    <figure data-cat="extension"><img src="images/baby-boomer-ovale.jpg" width="900" height="1125" loading="lazy" alt="Extension en baby-boomer, forme amande, gros plan"><figcaption><span>Extension baby-boomer, forme amande</span></figcaption></figure>
+    <figure data-cat="gainage"><img src="images/pastel-jaune-rose.jpg" width="900" height="1125" loading="lazy" alt="Gainage forme carré, jaune pastel et rose"><figcaption><span>Gainage forme carré</span></figcaption></figure>
+    <figure data-cat="extension"><img src="images/nude-laiteux-gros-plan.jpg" width="900" height="1125" loading="lazy" alt="Extension en forme amande, gel rosé, gros plan"><figcaption><span>Extension forme amande</span></figcaption></figure>
+    <figure data-cat="pedicure"><img src="images/pedicure-blanc-laiteux.jpg" width="900" height="1125" loading="lazy" alt="Pédicure blanc laiteux avec incrustation de paillettes"><figcaption><span>Pédicure, incrustation paillettes</span></figcaption></figure>
   </div>
   <p class="muted">Les dernières poses sont publiées chaque semaine sur Instagram : <strong><a href="https://www.instagram.com/maisonmuseaparis/" target="_blank" rel="noopener">@maisonmuseaparis</a></strong></p>
 </section>
