@@ -160,7 +160,7 @@ img.about-photo { width: 300px; height: auto; min-height: 0; aspect-ratio: 4 / 5
 .price { min-width: 76px; text-align: right; font-weight: 500; color: var(--accent); font-variant-numeric: tabular-nums; }
 
 .price-group .label { margin-bottom: 10px; }
-.price-name small { display: block; font-family: var(--text); font-size: 14px; color: var(--muted); letter-spacing: 0.02em; margin-top: 2px; }
+.price-name small { display: block; max-width: 44ch; line-height: 1.45; font-family: var(--text); font-size: 14px; color: var(--muted); letter-spacing: 0.02em; margin-top: 2px; }
 .price { white-space: nowrap; }
 
 /* Attentions */
