@@ -90,26 +90,31 @@
 <section id="realisations" class="wrap section stack-l">
   <div class="section-head">
     <h2>Mes <em>réalisations</em></h2>
-    <p class="muted measure-s">Toutes les photos sont prises au studio, sans retouche. Choisissez un style pour filtrer la galerie.</p>
+    <p class="muted measure-s">Quelques-unes de mes dernières poses. Choisissez un style pour filtrer la galerie.</p>
   </div>
   <div class="pills" role="group" aria-label="Filtrer les réalisations par style" id="filtres">
     <button type="button" class="pill" data-filter="tout" aria-pressed="true">Tout</button>
     <button type="button" class="pill" data-filter="nude" aria-pressed="false">Nude</button>
-    <button type="button" class="pill" data-filter="french" aria-pressed="false">French</button>
+    <button type="button" class="pill" data-filter="french" aria-pressed="false">French et baby-boomer</button>
     <button type="button" class="pill" data-filter="couleur" aria-pressed="false">Couleur</button>
-    <button type="button" class="pill" data-filter="nail-art" aria-pressed="false">Nail art</button>
+    <button type="button" class="pill" data-filter="pedicure" aria-pressed="false">Pédicure</button>
   </div>
-  <!-- Pour ajouter une photo : dupliquer un bloc <figure>, mettre l'image dans /images
-       et remplacer le <div class="placeholder ..."> par <img src="images/nom.jpg" alt="..."> -->
+  <!-- Pour ajouter une photo : déposer l'image dans /images (format 4:5), puis dupliquer un bloc <figure>.
+       data-cat vaut nude, french, couleur ou pedicure. -->
   <div class="gallery" id="galerie">
-    <figure data-cat="nude"><div class="placeholder shot tone-1">[Votre photo]</div><figcaption><span>Baby boomer</span><span>Nude</span></figcaption></figure>
-    <figure data-cat="french"><div class="placeholder shot tone-2">[Votre photo]</div><figcaption><span>French fine</span><span>French</span></figcaption></figure>
-    <figure data-cat="couleur"><div class="placeholder shot tone-3">[Votre photo]</div><figcaption><span>Rouge profond</span><span>Couleur</span></figcaption></figure>
-    <figure data-cat="nail-art"><div class="placeholder shot tone-4">[Votre photo]</div><figcaption><span>Feuille d'or</span><span>Nail art</span></figcaption></figure>
-    <figure data-cat="nude"><div class="placeholder shot tone-5">[Votre photo]</div><figcaption><span>Nude lacté</span><span>Nude</span></figcaption></figure>
-    <figure data-cat="french"><div class="placeholder shot tone-6">[Votre photo]</div><figcaption><span>French colorée</span><span>French</span></figcaption></figure>
-    <figure data-cat="couleur"><div class="placeholder shot tone-7">[Votre photo]</div><figcaption><span>Bordeaux mat</span><span>Couleur</span></figcaption></figure>
-    <figure data-cat="nail-art"><div class="placeholder shot tone-8">[Votre photo]</div><figcaption><span>Fleurs fines</span><span>Nail art</span></figcaption></figure>
+    <figure data-cat="french"><img src="images/baby-boomer-court.jpg" width="900" height="1125" loading="lazy" alt="Baby-boomer sur ongles courts, mains posées sur un tissu sombre"><figcaption><span>Baby-boomer court</span><span>French et baby-boomer</span></figcaption></figure>
+    <figure data-cat="nude"><img src="images/nude-rose.jpg" width="900" height="1125" loading="lazy" alt="Ongles courts nude rosé"><figcaption><span>Nude rosé</span><span>Nude</span></figcaption></figure>
+    <figure data-cat="nude"><img src="images/rose-laiteux-amande.jpg" width="900" height="1125" loading="lazy" alt="Ongles en amande rose laiteux sur un tissu noir"><figcaption><span>Rose laiteux, amande</span><span>Nude</span></figcaption></figure>
+    <figure data-cat="french"><img src="images/french-blanche.jpg" width="900" height="1125" loading="lazy" alt="French blanche sur ongles en amande, manche en dentelle noire"><figcaption><span>French blanche</span><span>French et baby-boomer</span></figcaption></figure>
+    <figure data-cat="couleur"><img src="images/noir-laque.jpg" width="900" height="1125" loading="lazy" alt="Ongles carrés noir laqué, manche en dentelle noire"><figcaption><span>Noir laqué</span><span>Couleur</span></figcaption></figure>
+    <figure data-cat="nude"><img src="images/nude-laiteux-amande.jpg" width="900" height="1125" loading="lazy" alt="Gros plan sur un ongle en amande nude laiteux"><figcaption><span>Nude laiteux, amande</span><span>Nude</span></figcaption></figure>
+    <figure data-cat="couleur"><img src="images/rouge.jpg" width="900" height="1125" loading="lazy" alt="Ongles carrés rouges"><figcaption><span>Rouge</span><span>Couleur</span></figcaption></figure>
+    <figure data-cat="french"><img src="images/babycolor-french.jpg" width="900" height="1125" loading="lazy" alt="Babycolor rose, french blanche et liseré de paillettes"><figcaption><span>Babycolor et french</span><span>French et baby-boomer</span></figcaption></figure>
+    <figure data-cat="french"><img src="images/baby-boomer-ovale.jpg" width="900" height="1125" loading="lazy" alt="Gros plan sur un ongle ovale en baby-boomer"><figcaption><span>Baby-boomer ovale</span><span>French et baby-boomer</span></figcaption></figure>
+    <figure data-cat="nude"><img src="images/nude-laiteux.jpg" width="900" height="1125" loading="lazy" alt="Ongles ovales nude laiteux sur fond noir"><figcaption><span>Nude laiteux</span><span>Nude</span></figcaption></figure>
+    <figure data-cat="couleur"><img src="images/pastel-jaune-rose.jpg" width="900" height="1125" loading="lazy" alt="Ongles carrés longs jaune pastel et rose"><figcaption><span>Jaune pastel et rose</span><span>Couleur</span></figcaption></figure>
+    <figure data-cat="nude"><img src="images/nude-laiteux-gros-plan.jpg" width="900" height="1125" loading="lazy" alt="Gros plan sur des ongles en amande nude laiteux"><figcaption><span>Nude laiteux, gros plan</span><span>Nude</span></figcaption></figure>
+    <figure data-cat="pedicure"><img src="images/pedicure-blanc-laiteux.jpg" width="900" height="1125" loading="lazy" alt="Pédicure blanc laiteux"><figcaption><span>Blanc laiteux</span><span>Pédicure</span></figcaption></figure>
   </div>
   <p class="muted">Les dernières poses sont publiées chaque semaine sur Instagram : <strong><a href="https://www.instagram.com/maisonmuseaparis/" target="_blank" rel="noopener">@maisonmuseaparis</a></strong></p>
 </section>
@@ -178,16 +183,12 @@
   <h2 class="h2-small">Les attentions <em>de la maison</em></h2>
   <div class="perks">
     <div class="perk perk-rose">
-      <h3>Première visite</h3>
-      <p>[Votre offre de bienvenue, par exemple une remise ou un soin des mains offert.]</p>
-    </div>
-    <div class="perk perk-light">
       <h3>Carte de fidélité</h3>
-      <p class="muted">[Votre règle de fidélité, par exemple un avantage à la sixième pose.]</p>
+      <p>Parce que votre fidélité est précieuse : 10 € de réduction à la 5e visite, et une pose offerte à la 10e.</p>
     </div>
     <div class="perk perk-dark">
       <h3>Bon cadeau</h3>
-      <p>Une pose à offrir, pour un anniversaire ou une future mariée. [Vos modalités.]</p>
+      <p>Une pose à offrir, pour un anniversaire ou une future mariée. Demandez-le lors de votre prise de contact.</p>
     </div>
   </div>
 </section>
@@ -259,7 +260,7 @@
     </details>
     <details>
       <summary>Quels moyens de paiement acceptez-vous ?</summary>
-      <p>[Espèces, carte, virement instantané : à préciser.]</p>
+      <p>Espèces ou PayPal.</p>
     </details>
   </div>
 </section>
