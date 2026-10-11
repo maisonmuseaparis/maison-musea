@@ -194,6 +194,8 @@ h3 { font-family: var(--display); font-weight: 500; font-size: 24px; line-height
 .contact > div:last-child { border-bottom: 1px solid var(--dark-line); }
 .contact dt { flex: 0 0 150px; font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--dark-soft); padding-top: 4px; }
 .contact dd { font-size: 20px; font-variant-numeric: tabular-nums; }
+.contact a { color: var(--ground); }
+.contact a:hover { color: var(--rose); }
 .form { display: flex; flex-direction: column; gap: 18px; }
 .form-row { display: flex; flex-wrap: wrap; gap: 18px; }
 .form-row .field { flex: 1 1 180px; }
