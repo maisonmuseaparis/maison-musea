@@ -29,21 +29,12 @@ var CONFIG = {
     { nom: "Amande", rayon: "50% 50% " + BASE + " / 58% 58% " + BASE, decoupe: "none",
       texte: "Les côtés se resserrent vers une pointe arrondie. Elle allonge visuellement les doigts et reste confortable au quotidien.",
       ideal: "Les doigts courts ou les mains larges, en gel ou en extensions." },
-    { nom: "Ovale", rayon: "50% 50% " + BASE + " / 30% 30% " + BASE, decoupe: "none",
-      texte: "La plus naturelle : elle suit la courbe de la cuticule. Discrète, elle casse peu.",
-      ideal: "Toutes les mains, et les ongles naturels de longueur courte à moyenne." },
     { nom: "Carré", rayon: "5px 5px " + BASE, decoupe: "none",
       texte: "Bord droit et angles nets, pour un rendu graphique. C'est la forme classique de la french.",
       ideal: "Les doigts longs et fins, avec une plaque d'ongle assez large." },
     { nom: "Carré arrondi", rayon: "26px 26px " + BASE, decoupe: "none",
       texte: "Le bord reste droit, les coins sont adoucis. Elle n'accroche pas et résiste bien aux chocs.",
-      ideal: "Celles qui travaillent beaucoup avec leurs mains." },
-    { nom: "Ballerine", rayon: "0 0 " + BASE, decoupe: "polygon(27% 0, 73% 0, 100% 42%, 100% 100%, 0 100%, 0 42%)",
-      texte: "Longue, effilée, avec un bout coupé droit comme un chausson de danse. Elle demande de la longueur.",
-      ideal: "Une pose en extensions, pour un effet affirmé." },
-    { nom: "Stiletto", rayon: "50% 50% " + BASE + " / 94% 94% " + BASE, decoupe: "none",
-      texte: "Très longue et pointue, c'est la plus spectaculaire. Elle est aussi plus fragile que les autres.",
-      ideal: "Les grandes occasions, toujours en extensions." }
+      ideal: "Celles qui travaillent beaucoup avec leurs mains." }
   ];
 
   var zone = document.getElementById("formes");
