@@ -177,6 +177,8 @@ img.about-photo { width: 300px; height: auto; min-height: 0; aspect-ratio: 4 / 5
 .chips li { padding: 8px 20px; border: 1px solid var(--ink); border-radius: 999px; }
 .chips .chip-main { background: var(--ink); color: var(--ground); }
 
+.chips-note { margin-top: 12px; }
+
 /* Avis */
 .reviews { display: flex; flex-wrap: wrap; gap: 24px; }
 .review { flex: 1 1 300px; min-width: 0; padding: 32px; background: var(--panel); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 16px; }
